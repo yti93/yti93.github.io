@@ -123,8 +123,9 @@ h3 {
 }
 
 .company-logo {
-  width: 36px;
   height: 36px;
+  width: auto;
+  max-width: 100px;
   border-radius: 8px;
   background: #fff;
   padding: 4px;
