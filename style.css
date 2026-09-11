@@ -116,6 +116,22 @@ h3 {
   margin-bottom: 18px;
 }
 
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.company-logo {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  background: #fff;
+  padding: 4px;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+
 .links-row {
   display: flex;
   flex-wrap: wrap;
