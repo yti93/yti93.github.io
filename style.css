@@ -24,6 +24,7 @@ html, body {
   color: var(--ink);
   font-family: var(--font-body);
   line-height: 1.6;
+  overflow-wrap: break-word;
 }
 
 a { color: var(--accent-deep); text-decoration: none; }
@@ -176,6 +177,8 @@ h3 {
   position: relative;
 }
 
+.card-header h3 { min-width: 0; }
+
 .card > *:not(.card-header) { position: relative; }
 
 .company-logo {
@@ -302,6 +305,14 @@ ul.tight li { margin-bottom: 6px; }
   gap: 14px;
   align-items: flex-start;
   break-inside: avoid;
+}
+
+.book-info {
+  min-width: 0;
+}
+
+.book-info .meta {
+  overflow-wrap: break-word;
 }
 
 .book-cover {
